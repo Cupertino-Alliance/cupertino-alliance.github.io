@@ -24,6 +24,13 @@ body {
   width: 95%;
   margin: auto;
 }
+
+.menuicon {
+  transition: transform .3s ease-in-out;
+}
+.menuicon:hover {
+  transform: rotate(45deg);
+}
     
 .dropbtn {
   background-color: #00b050;
@@ -36,7 +43,7 @@ body {
 }
 
 .dropdown {
-  position: relative;
+  position: sticky;
   display: inline-block;
   width: 100%;
 }
@@ -69,13 +76,33 @@ body {
 .dropdown:hover .dropbtn {
   background-color: #009f48;
 }
+
+span.a {
+  display: inline-block;
+  width: 10%;
+  height: 125px;
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+span.b {
+  display: inline-block;
+  width: 90%;
+  height: 125px;
+  background-color: #1d4289;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
     
 </style>
 </head>
 <body style="font-family:Kayak Sans Regular"><div style="background-color:#1d4289;padding:15px">
     <a href="/"><img src="/assets/images/vector/ca icon.svg" style="display:block;margin:auto"></a>
   </div><div class="dropdown">
-      <button class="dropbtn"><img src="/assets/images/vector/ca menu.svg" width="25px"></button>
+      <button class="dropbtn"><img src="/assets/images/vector/ca menu.svg" width="25px" class="menuicon"></button>
     <div class="dropdown-content">
       <a href="/apply/">Apply</a>
       <a href="/projects/">Projects</a>
@@ -91,6 +118,5 @@ body {
   <p style="text-align:center;font-size:32px">
     <b>- WILLIAM EFTON</b>
   </p>
-</div>
-
-</body></html>
+  <div style="">
+</div></div></body></html>
