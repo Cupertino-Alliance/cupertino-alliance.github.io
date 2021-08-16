@@ -1,19 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
+<title>Cupertino Alliance</title>
+<link rel="shortcut icon" type="image/svg" href="/assets/images/vector/ca icon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cupertino Alliance">
+<meta property="og:description" content="The official website for the Cupertino Alliance. Still under development.">
+<meta property="og:url" content="https://cupertinoalliance.com">
+<meta property="og:image" content="/assets/images/vector/ca icon.svg">
+    
 <style> 
-#example1 {
-  background: url(/assets/images/non-vector/index.jpg) left top no-repeat;
-  padding: 15px;
+@font-face {
+  font-family: "Kayak Sans Regular";
+  src: url('/assets/style/fonts/Kayak Sans Regular.otf');
 }
+body {
+  width: 100%;
+  margin: 0px;
+  background-color: #1d4289;
+  color: #ffffff;
+}  
+.maintext {
+  width: 95%;
+  margin: auto;
+}
+    
+.dropbtn {
+  background-color: #00b050;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  color: #00b050;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 100%
+}
+
+.dropdown-content a {
+  color: #00b050;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #009f48;
+}
+    
 </style>
 </head>
-<body>
-
-<div id="example1">
-  <h1>cupertino</h1>
-  <p>innit</p>
-</div>
-
-</body>
-</html>
+<body style="font-family:Kayak Sans Regular"><div style="background-color:#1d4289;padding:15px">
+    <a href="/"><img src="/assets/images/vector/ca icon.svg" style="display:block;margin:auto"></a>
+  </div><div class="dropdown">
+      <button class="dropbtn"><img src="/assets/images/vector/ca menu.svg" width="25px"></button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  <img src="/assets/images/vector/welcome to the ca.svg" width="100%">
+  <div class="maintext">
+  <p>hi</p>
+  </div>
+</body></html>
