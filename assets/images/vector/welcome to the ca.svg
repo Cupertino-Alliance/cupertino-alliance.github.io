@@ -3,8 +3,8 @@
 
 <svg
    width="50mm"
-   height="22.500002mm"
-   viewBox="0 0 50 22.500002"
+   height="42.500004mm"
+   viewBox="0 0 50 42.500004"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
@@ -36,9 +36,9 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-page="true"
      inkscape:snap-center="true"
-     inkscape:zoom="1.8115054"
-     inkscape:cx="84.736154"
-     inkscape:cy="39.193921"
+     inkscape:zoom="0.79610957"
+     inkscape:cx="150.10497"
+     inkscape:cy="232.38007"
      inkscape:window-width="1293"
      inkscape:window-height="791"
      inkscape:window-x="0"
@@ -569,7 +569,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(3.9882736,-12.252173)">
+     transform="translate(3.9882748,-2.2521729)">
     <rect
        style="opacity:0.99;fill:#00b050;fill-opacity:1;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-linejoin:round"
        id="rect3506-0-4"
@@ -585,7 +585,7 @@
        x="-3.9882748"
        y="39.752174" />
     <rect
-       style="opacity:0.99;fill:#1d4283;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-linejoin:round;fill-opacity:1"
+       style="opacity:0.99;fill:#1d4283;fill-opacity:1;stroke:none;stroke-width:4.99999;stroke-linecap:square;stroke-linejoin:round"
        id="rect3506"
        width="50"
        height="5"
@@ -770,7 +770,7 @@
     </g>
     <path
        id="path31487-2-0-1-5-53-45-4-82"
-       style="fill:none;stroke:#1d4283;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99215686"
+       style="fill:none;stroke:#1d4283;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.992157"
        d="M -3.0492877,52.826499 16.950712,32.8265 m 32.91667,20 20,-19.999999 M 39.284048,52.8265 l 20,-19.999999 M 28.700714,52.8265 l 20,-19.999999 M 18.11738,52.8265 l 20,-20 M 7.5340458,52.826499 27.534046,32.8265"
        sodipodi:nodetypes="cccccccccccc"
        clip-path="url(#clipPath35740-9-98-6-8)"
@@ -787,7 +787,7 @@
        id="rect3506-0"
        width="50"
        height="5"
-       x="-5.1549416"
+       x="-3.9882748"
        y="2.2521718" />
     <path
        id="path31487-2-0-1-5-53-45-4-9"
