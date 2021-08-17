@@ -28,7 +28,6 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-  text-align: center;
   font-family: "Kayak Sans";
 }
 
@@ -45,6 +44,13 @@ body {
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+    text-align: center;
+  }
+}
+    
+@media (min-width: 801px) {
+  .flex-container {
+    text-align: left;
   }
 }
     
@@ -150,16 +156,16 @@ body {
       <div class="flex-item-left">
     <img src="/assets/images/non-vector/about.jpeg" style="display:block;width:100%;margin-left:auto;margin-right:auto"></div>
     <div class="flex-item-right">
-    <p style="text-align:center;font-size:32px">The Cupertino Alliance is a micronational organization committed to the development and improvement of member nations.
+    <p style="font-size:32px;margin-top:0px;margin-left:12px;margin-bottom:0px">The Cupertino Alliance is a micronational organization committed to the development and improvement of member nations.
 </p>
-  <p style="text-align:center;font-size:24px">
+  <p style="font-size:24px;margin:12px">
     There are many organizations in the micronational community. So many in fact, they are often referred to as "YAMO"; "Yet Another Micronational Organization". They often exhibit the failure of identifying problems in the community, many of which their members contribute to.
-</p><p style="text-align:center;font-size:32px">We're different.
-</p><p style="text-align:center;font-size:24px">We work to stop the ever-growing problem of inactivity within the micronational community.
+</p><p style="font-size:32px;margin:12px">We're different.
+</p><p style="font-size:24px;margin:12px">We work to stop the ever-growing problem of inactivity within the micronational community.
 
 The CA makes every effort to be <i>the</i> micronational organization. We speak sense, and respect your opinion. We have access to useful agreements, documents and resource. Everything we have put into place is for our members. We are a rising star in the micronational community.
 </p>
-  <p style="text-align:center;font-size:24px">By holding multiple sessions per week, we're able to make sure our members have their voices heard.
+  <p style="font-size:24px;margin:12px">By holding multiple sessions per week, we're able to make sure our members have their voices heard.
 </p>
         </div>
 </div>
@@ -179,7 +185,4 @@ From graphic design assistance to funding local growth of plants, our programs e
     </div>
     </div>
   </div>
-
-
-
 </body></html>
