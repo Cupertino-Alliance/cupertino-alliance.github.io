@@ -8,6 +8,26 @@ body {
   background-color: #1d4289;
   color: #ffffff;
 }  
+
+document.getElementById("body").onscroll = function myFunction() {  
+    var scrolltotop = document.scrollingElement.scrollTop;
+    var target = document.getElementById("main1");
+    var xvalue = "center";
+    var factor = 0.5;
+    var yvalue = scrolltotop * factor;
+    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
+  }
+
+#main1 {
+    background-image: url('/assets/images/vector/welcome to the ca.svg');
+    background-position: top center;
+    background-attachment:scroll;
+    background-size: cover;
+    height: 1500px;
+    width: 100%;
+}
+
+
 .maintext {
   width: 95%;
   margin: auto;
@@ -115,4 +135,3 @@ body {
   background-color: #00b050;
   color: #ffffff;
 }
-    
