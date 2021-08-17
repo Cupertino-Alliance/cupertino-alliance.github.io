@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html><head>
 <title>Cupertino Alliance</title>
 <link rel="shortcut icon" type="image/svg" href="/assets/images/vector/ca icon.svg">
@@ -26,6 +25,29 @@ body {
   margin: auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-family: "Kayak Sans";
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+    
 .menuicon {
   transition: transform .3s ease-in-out;
 }
@@ -113,18 +135,22 @@ body {
       <a href="/discord/">Discord</a>
     </div>
   </div>
-  <img src="/assets/images/vector/welcome to the ca.svg" width="100%">
-  <div class="maintext">
-    <p style="text-align:center;font-size:24px">
+<img src="/assets/images/vector/welcome to the ca.svg" width="100%">
+    <div class="maintext">
+      <p style="text-align:center;font-size:24px">
       "By being in the Alliance, you've already shown yourself as a nation that is trustworthy, successful and can be counted on. As we come together to work on issues we have in common and find ethical, practical solutions, we must also realize that the outside world is also looking at this alliance."
-  </p>
-  <p style="text-align:center;font-size:32px">
-    <b>- WILLIAM EFTON</b>
-  </p>
+    </p>
+    <p style="text-align:center;font-size:32px">
+      <b>- WILLIAM EFTON</b>
+    </p>
   </div>
   <img src="/assets/images/vector/ca about.svg" width="100%"><div class="maintext">
     <br>
-    <img src="/assets/images/non-vector/about.jpeg" style="display:block;width:80%;margin-left:auto;margin-right:auto"><p style="text-align:center;font-size:32px">The Cupertino Alliance is a micronational organization committed to the development and improvement of member nations.
+    <div class="flex-container">
+      <div class="flex-item-left">
+    <img src="/assets/images/non-vector/about.jpeg" style="display:block;width:80%;margin-left:auto;margin-right:auto"></div>
+    <div class="flex-item-right">
+    <p style="text-align:center;font-size:32px">The Cupertino Alliance is a micronational organization committed to the development and improvement of member nations.
 </p>
   <p style="text-align:center;font-size:24px">
     There are many organizations in the micronational community. So many in fact, they are often referred to as "YAMO"; "Yet Another Micronational Organization". They often exhibit the failure of identifying problems in the community, many of which their members contribute to.
@@ -134,7 +160,11 @@ body {
 The CA makes every effort to be <i>the</i> micronational organization. We speak sense, and respect your opinion. We have access to useful agreements, documents and resource. Everything we have put into place is for our members. We are a rising star in the micronational community.
 </p>
   <p style="text-align:center;font-size:24px">By holding multiple sessions per week, we're able to make sure our members have their voices heard.
-</p></div><img src="/assets/images/vector/ca projects.svg" width="100%"><div class="maintext">
+</p>
+        </div>
+</div>
+</div>
+<img src="/assets/images/vector/ca projects.svg" width="100%"><div class="maintext">
     <br>
     <img src="/assets/images/non-vector/ca projects collage.png" style="display:block;width:80%;margin-left:auto;margin-right:auto"><p style="text-align:center;font-size:32px">We believe that one's nation must benefit in joining an organization, which is why we host a multitude of useful projects.
 </p>
@@ -146,6 +176,7 @@ From graphic design assistance to funding local growth of plants, our programs e
 </p>
 
   </div>
+
 
 
 </body></html>
